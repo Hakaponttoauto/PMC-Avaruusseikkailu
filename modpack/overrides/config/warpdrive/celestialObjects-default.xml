@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="3"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd"
+				 mods="!galacticraftcore">
+
+	<celestialObject id="Hyperspace">
+
+		<size x="9600" z="9600" />
+		<name>Hyperavaruus</name>
+		<description>Ulottuvuuksien eteeritilassa aluksesi on ainoa suojasi</description>
+
+
+		<dimension id="-100" isBreathable="false" isHyperspace="true" gravity="legacyHyperspace">
+			<center x="0" z="0" />
+
+			<provider type="WarpDriveHyperspace" />
+		</dimension>
+
+		<skybox>
+			<backgroundColor red="1.0" green="0.0" blue="0.0" />
+			<starBrightnessBase>0.2</starBrightnessBase>
+			<starBrightnessVanilla>0.0</starBrightnessVanilla>
+			<celestialObjectOpacity>0.3</celestialObjectOpacity>
+			<fogColor red="0.15" green="0.0" blue="0.0" />
+			<fogFactor red="0.0" green="0.0" blue="0.0" />
+		</skybox>
+
+		<celestialObject id="solarSystem">
+			<parent>
+				<center x="0" z="0" />
+			</parent>
+			<size x="9600" z="9600" />
+			<name>Avaruus</name>
+			<description>Avara tyhjyys, vain asteroideja ja pikkuplaneettoja.</description>
+			<dimension id="-101" isBreathable="false" gravity="legacySpace">
+				<center x="0" z="0" />
+				<provider type="WarpDriveSpace" />
+
+				<generate group="moon" ratio="0.00125" />
+				<generate group="asteroid" ratio="0.0067" />
+				<generate group="asteroids_field" ratio="0.0016" />
+			</dimension>
+
+			<skybox>
+				<backgroundColor red="0.0" green="0.0" blue="0.0" />
+				<boxTextures
+						 back  ="warpdrive:textures/celestial/skybox-small_blue/back.png"
+						 bottom="warpdrive:textures/celestial/skybox-small_blue/bottom.png"
+						 front ="warpdrive:textures/celestial/skybox-small_blue/front.png"
+						 left  ="warpdrive:textures/celestial/skybox-small_blue/left.png"
+						 right ="warpdrive:textures/celestial/skybox-small_blue/right.png"
+						 top   ="warpdrive:textures/celestial/skybox-small_blue/top.png" />
+				<boxBrightness>1.0</boxBrightness>
+				<starBrightnessBase>0.9</starBrightnessBase>
+				<starBrightnessVanilla>0.0</starBrightnessVanilla>
+				<celestialObjectOpacity>1.0</celestialObjectOpacity>
+				<fogColor red="0.0" green="0.0" blue="0.0" />
+				<fogFactor red="0.0" green="0.0" blue="0.0" />
+			</skybox>
+
+			<celestialObject id="A1">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-2560" z="2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="407" isBreathable="true" gravity="0.8">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="A2">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-1280" z="2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="2" isBreathable="true" gravity="0.7">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+
+			<celestialObject id="A3">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="0" z="2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="418" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="A4">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="1280" z="2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="417" isBreathable="true" gravity="0.5">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="A5">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="2560" z="2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="412" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="B1">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-1920" z="1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="424" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="B2">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-640" z="1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="414" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="B3">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="640" z="1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="405" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="B4">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="1920" z="1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="410" isBreathable="true" gravity="0.9">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="C1">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-2560" z="0" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="60" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="C2">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-1280" z="0" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="409" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="C3">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="10" z="10" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="0" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="C4">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="1280" z="0" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="58" isBreathable="false" gravity="1.5">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="C5">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="2560" z="0" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="415" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="D1">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-1920" z="-1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="421" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="D2">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-640" z="-1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="54" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="D3">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="640" z="-1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="423" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="D4">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="1920" z="-1280" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="413" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="E1">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-2560" z="-2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="61" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="E2">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="-1280" z="-2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="420" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="E3">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="0" z="-2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="416" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="E4">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="1280" z="-2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="408" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="E5">
+				<name></name>
+				<description></description>
+				<parent>
+					<center x="2560" z="-2560" />
+				</parent>
+				<size x="1000" z="1000" />
+				<dimension id="57" isBreathable="false" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.60" green="0.60" blue="0.30" alpha="0.50" texture="warpdrive:textures/celestial/desert2.png" />
+				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
+			</celestialObject>
+
+		</celestialObject>
+
+	</celestialObject>
+
+</worldGeneration>

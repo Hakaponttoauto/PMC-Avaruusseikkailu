@@ -1,0 +1,389 @@
+[
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "Auton",
+    "biomes": [
+      "minecraft:jungle"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "Cyberman",
+    "biomes": [
+      "thedalekmod:mondassnow",
+      "thedalekmod:mondasmountains",
+      "minecraft:plains",
+      "minecraft:desert",
+      "minecraft:cold_beach",
+      "minecraft:mesa",
+      "minecraft:mesa_rock",
+      "minecraft:mesa_clear_rock",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga",
+      "minecraft:ice_mountains",
+      "minecraft:ice_flats"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "icewarrior",
+    "biomes": [
+      "thedalekmod:mars"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "AMBIENT",
+    "frequency": 2,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "Timelord",
+    "biomes": [
+      "thedalekmod:gallifrey"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "Ood",
+    "biomes": [
+      "minecraft:birch_forest_hills",
+      "minecraft:savanna",
+      "minecraft:swampland"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 5,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "gell_guard",
+    "biomes": [
+      "thedalekmod:mars"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 5,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "Sontaran",
+    "biomes": [
+      "minecraft:plains",
+      "minecraft:birch_forest_hills",
+      "minecraft:savanna",
+      "minecraft:swampland",
+      "thedalekmod:trenzalorecrater"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 4,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "menoptera",
+    "biomes": [
+      "thedalekmod:vortis"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 4,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "zarbi",
+    "biomes": [
+      "thedalekmod:vortis"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 4,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "larvaegun",
+    "biomes": [
+      "thedalekmod:vortis"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 4,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "sandman",
+    "biomes": [
+      "thedalekmod:vortisdesert"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 5,
+    "min_spawn": 1,
+    "max_spawn": 1,
+    "entity": "cyberdrone",
+    "biomes": [
+      "thedalekmod:mondassnow",
+      "thedalekmod:mondasmountains",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:ice_mountains",
+      "minecraft:ice_flats"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "CREATURE",
+    "frequency": 40,
+    "min_spawn": 1,
+    "max_spawn": 5,
+    "entity": "Dalek",
+    "biomes": [
+      "minecraft:beaches",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:cold_beach",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:hell",
+      "minecraft:sky",
+      "minecraft:ice_mountains",
+      "minecraft:ice_flats",
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:plains",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:roofed_forest",
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:stone_beach",
+      "minecraft:swampland",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "thedalekmod:skaro",
+      "thedalekmod:skarodesert",
+      "thedalekmod:skaroplains",
+      "thedalekmod:skaroocean",
+      "thedalekmod:trenzalorecrater"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 4,
+    "min_spawn": 1,
+    "max_spawn": 1,
+    "entity": "judoon",
+    "biomes": [
+      "thedalekmod:moon"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "AMBIENT",
+    "frequency": 3,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "cybercow",
+    "biomes": [
+      "thedalekmod:mondasbluelands"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 1,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "sea_devil",
+    "biomes": [
+      "thedalekmod:mc_classic"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 1,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "mechanoid",
+    "biomes": [
+      "thedalekmod:alienjungle"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 1,
+    "min_spawn": 1,
+    "max_spawn": 1,
+    "entity": "slitheen",
+    "biomes": [
+      "thedalekmod:alienjungle"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "CREATURE",
+    "frequency": 50,
+    "min_spawn": 3,
+    "max_spawn": 7,
+    "entity": "thal",
+    "biomes": [
+      "thedalekmod:skaroforest",
+      "thedalekmod:skarojungle"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 2,
+    "max_spawn": 5,
+    "entity": "mondan",
+    "biomes": [
+      "thedalekmod:mondasforest"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "WhisperMan",
+    "biomes": [
+      "thedalekmod:trenzalore",
+      "thedalekmod:trenzaloregrave"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 6,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "Silence",
+    "biomes": [
+      "thedalekmod:trenzalorecrater"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 10,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "monoid",
+    "biomes": [
+      "thedalekmod:trenzaloreplains"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 7,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "wirrn",
+    "biomes": [
+      "thedalekmod:trenzaloreforest"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 8,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "yeti",
+    "biomes": [
+      "thedalekmod:trenzaloreplains",
+      "minecraft:taiga",
+      "minecraft:taiga_cold_hills",
+      "minecraft:ice_mountains",
+      "minecraft:ice_flats"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 5,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "axon",
+    "biomes": [
+      "thedalekmod:trenzaloreplains",
+      "minecraft:mutated_savanna_rock"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 1,
+    "min_spawn": 1,
+    "max_spawn": 5,
+    "entity": "GaskmaskZombie",
+    "biomes": [
+      "thedalekmod:trenzalore",
+      "thedalekmod:trenzaloregrave",
+      "minecraft:swampland"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 2,
+    "min_spawn": 1,
+    "max_spawn": 3,
+    "entity": "ClockworkDroid",
+    "biomes": [
+      "thedalekmod:trenzaloreplains",
+      "thedalekmod:alienjungle"
+    ],
+    "should_spawn": true
+  },
+  {
+    "entity_type": "MONSTER",
+    "frequency": 5,
+    "min_spawn": 1,
+    "max_spawn": 2,
+    "entity": "handmine",
+    "biomes": [
+      "thedalekmod:skaro"
+    ],
+    "should_spawn": true
+  }
+]

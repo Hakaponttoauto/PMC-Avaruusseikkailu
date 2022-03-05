@@ -1,0 +1,34 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+SolarSystem = registerPreset("Solar System", "", "Work in progress")
+SolarSystem.registerDimension(0, "planets/422-wasteland")
+SolarSystem.registerDimension(405, "planets/405-desert")
+SolarSystem.registerDimension(406, "planets/406-savanna")
+SolarSystem.registerDimension(407, "planets/407-swamp")
+SolarSystem.registerDimension(408, "planets/408-island")
+SolarSystem.registerDimension(409, "planets/409-ice")
+SolarSystem.registerDimension(410, "planets/410-pine")
+SolarSystem.registerDimension(411, "planets/411-baobab")
+SolarSystem.registerDimension(412, "planets/412-sea")
+SolarSystem.registerDimension(413, "planets/413-cliffs")
+SolarSystem.registerDimension(414, "planets/414-creep")
+SolarSystem.registerDimension(415, "planets/415-dying")
+SolarSystem.registerDimension(416, "planets/416-glacier)")
+SolarSystem.registerDimension(417, "planets/417-misty")¨
+SolarSystem.registerDimension(418, "planets/418-mud")
+SolarSystem.registerDimension(419, "planets/419-red")
+SolarSystem.registerDimension(420, "planets/420-tropical")
+SolarSystem.registerDimension(421, "planets/421-volcanic")
+SolarSystem.registerDimension(422, "planets/422-wasteland")
+SolarSystem.registerDimension(423, "planets/423-jungle")
+SolarSystem.registerDimension(424, "planets/424-dry")
+SolarSystem.registerDimension(425, "planets/425-mountain")
+SolarSystem.registerDimension(426, "planets/426-treedesert")
+SolarSystem.registerDimension(5, "planets/test")
