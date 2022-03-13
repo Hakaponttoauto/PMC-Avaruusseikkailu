@@ -133,11 +133,70 @@
       }
     },
     {
+      "projectID": 228702,
+      "fileID": 2745545,
+      "required": true,
+      "__meta": {
+        "name": "Project Red - Core",
+        "dependencies": [
+          229002,
+          242818,
+          258426
+        ]
+      }
+    },
+    {
       "projectID": 228895,
       "fileID": 3112142,
       "required": true,
       "__meta": {
         "name": "BiomeTweaker"
+      }
+    },
+    {
+      "projectID": 229002,
+      "fileID": 2735197,
+      "required": true,
+      "__meta": {
+        "name": "MrTJPCore",
+        "explicit": false,
+        "dependencies": [
+          242818
+        ]
+      }
+    },
+    {
+      "projectID": 229045,
+      "fileID": 2745548,
+      "required": true,
+      "__meta": {
+        "name": "Project Red - Integration",
+        "dependencies": [
+          228702
+        ]
+      }
+    },
+    {
+      "projectID": 229046,
+      "fileID": 2745549,
+      "required": true,
+      "__meta": {
+        "name": "Project Red - Illumination",
+        "dependencies": [
+          228702
+        ]
+      }
+    },
+    {
+      "projectID": 229050,
+      "fileID": 2745546,
+      "required": true,
+      "__meta": {
+        "name": "Project Red - Compat",
+        "dependencies": [
+          229002,
+          228702
+        ]
       }
     },
     {
@@ -208,6 +267,15 @@
       }
     },
     {
+      "projectID": 242818,
+      "fileID": 2779848,
+      "required": true,
+      "__meta": {
+        "name": "CodeChicken Lib 1.8.+",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 248278,
       "fileID": 2975661,
       "required": true,
@@ -261,6 +329,18 @@
       "required": true,
       "__meta": {
         "name": "Valkyrien Skies"
+      }
+    },
+    {
+      "projectID": 258426,
+      "fileID": 2755790,
+      "required": true,
+      "__meta": {
+        "name": "CB Multipart",
+        "explicit": false,
+        "dependencies": [
+          242818
+        ]
       }
     },
     {

@@ -1,0 +1,6 @@
+
+{
+  "Name": "vespa",
+  "Registry ID": "thedalekmod:vespa",
+  "Class": "com.swdteam.common.entity.vehicles.EntityVespa"
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "dimension": 0,
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:maka",
+                "weight": 3,
+                "groupcountmin": 4,
+                "groupcountmax": 8
+            },
+            {
+                "mob": "lycanitesmobs:gorgomite",
+                "weight": 3
+            },
+            {
+                "mob": "lycanitesmobs:kobold",
+                "weight": 15,
+                "groupcountmax": 10,
+                "groupcounrmin": 3,
+                "maxlight": 5,
+                "minlight": 1
+            },
+            {
+                "mob": "lycanitesmobs:balayang",
+                "weight": 3
+            }
+        ]
+    }
+]

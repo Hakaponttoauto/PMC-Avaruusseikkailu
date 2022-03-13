@@ -1,0 +1,6 @@
+
+{
+  "Name": "dalek",
+  "Registry ID": "thedalekmod:dalek",
+  "Class": "com.swdteam.common.entity.dalek.EntityDalek"
+}

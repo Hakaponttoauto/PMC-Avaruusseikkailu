@@ -1,0 +1,107 @@
+{
+	"populate": {
+		"osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "mekanism:oreblock",
+                    "metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 5,
+			"min-height": 38,
+			"max-height": 53,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+
+		"uranium": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"center-height": 55,
+			"spread": 6,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+		"boron": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "metadata": 5
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"center-height": 4,
+			"spread": 10,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+
+		"lead": {
+			"distribution": "cave",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"ground-level": 40,
+			"cluster-count": 6,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+
+		"copper": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "large-vein",
+				"block": {
+                    "name": "mekanism:oreblock",
+                    "metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 1,
+			"center-height": 35,
+			"spread": 10,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [0]
+			}
+		},
+	}
+}

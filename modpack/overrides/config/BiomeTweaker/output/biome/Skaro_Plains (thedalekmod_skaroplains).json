@@ -1,0 +1,90 @@
+
+{
+  "ID": 198,
+  "Name": "Skaro Plains",
+  "Resource Location": "thedalekmod:skaroplains",
+  "Class": "com.swdteam.common.world.gen.biomes.BiomeGenSkaroPlains",
+  "Root Height": 0.5,
+  "Height Variation": 0.05,
+  "Top Block": "thedalekmod:skaro_rock",
+  "Filler Block": "thedalekmod:skaro_rock",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "60931",
+  "Temperature": 1.7,
+  "Humidity": 0.5,
+  "Water Tint": 60931,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "MESA"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      0
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.swdteam.common.entity.dalek.EntityDalek",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "TROPICAL": [
+      0
+    ],
+    "SAVANNA": [
+      0
+    ],
+    "HOT_DESERT": [
+      0
+    ],
+    "WASTELAND": [
+      0
+    ]
+  },
+  "BOP Island Weight": 0
+}

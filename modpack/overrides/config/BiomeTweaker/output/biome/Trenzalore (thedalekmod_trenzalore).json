@@ -1,0 +1,95 @@
+
+{
+  "ID": 178,
+  "Name": "Trenzalore",
+  "Resource Location": "thedalekmod:trenzalore",
+  "Class": "com.swdteam.common.world.gen.biomes.BiomeGenTrenzalore",
+  "Root Height": 0.2,
+  "Height Variation": 0.65,
+  "Top Block": "thedalekmod:granite",
+  "Filler Block": "thedalekmod:granite",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "FOREST",
+    "MESA"
+  ],
+  "BiomeManager Entries": {
+    "ICY Weights": [
+      0
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.swdteam.common.entity.dalek.EntityDalek",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.swdteam.common.entity.EntityGasmaskZombie",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.swdteam.common.entity.EntityWhisperman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "ICE_CAP": [
+      0
+    ],
+    "TUNDRA": [
+      0
+    ]
+  },
+  "BOP Island Weight": 0
+}

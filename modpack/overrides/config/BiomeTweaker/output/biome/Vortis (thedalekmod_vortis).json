@@ -1,0 +1,101 @@
+
+{
+  "ID": 185,
+  "Name": "Vortis",
+  "Resource Location": "thedalekmod:vortis",
+  "Class": "com.swdteam.common.world.gen.biomes.BiomeGenVortis",
+  "Root Height": 0.4,
+  "Height Variation": 0.4,
+  "Top Block": "thedalekmod:vortis_rock",
+  "Filler Block": "thedalekmod:vortis_rock",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "60931",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 60931,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "MESA"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      0
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.swdteam.common.entity.EntityMenoptera",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.swdteam.common.entity.EntityZarbi",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.swdteam.common.entity.EntityLarvaegun",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "TROPICAL": [
+      0
+    ],
+    "SAVANNA": [
+      0
+    ],
+    "HOT_DESERT": [
+      0
+    ],
+    "WASTELAND": [
+      0
+    ]
+  },
+  "BOP Island Weight": 0
+}

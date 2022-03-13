@@ -1,0 +1,41 @@
+[
+    {
+        "dimension": 0,
+        "mincount": {
+            "amount": 20,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "lycanitesmobs:maka",
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "lycanitesmobs:gorgomite",
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "lycanitesmobs:balayang",
+        "seesky": true,
+        "mintime": 14000,
+        "maxtime": 200000,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "lycanitesmobs:kobold",
+        "maxheight": 60,
+        "seesky": false,
+        "maxlight": 10,
+        "minlight": 1,
+        "result": "allow"
+    },
+    {
+        "result": "deny"
+    }
+]
