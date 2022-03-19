@@ -228,7 +228,7 @@
     },
     {
       "projectID": 233565,
-      "fileID": 3630848,
+      "fileID": 3679934,
       "required": true,
       "__meta": {
         "name": "WarpDrive"
@@ -321,14 +321,6 @@
       "required": true,
       "__meta": {
         "name": "Xtones"
-      }
-    },
-    {
-      "projectID": 258371,
-      "fileID": 3286262,
-      "required": true,
-      "__meta": {
-        "name": "Valkyrien Skies"
       }
     },
     {
@@ -493,30 +485,6 @@
       }
     },
     {
-      "projectID": 404463,
-      "fileID": 3160203,
-      "required": true,
-      "__meta": {
-        "name": "Valkyrien Skies Control",
-        "dependencies": [
-          404464,
-          258371
-        ]
-      }
-    },
-    {
-      "projectID": 404464,
-      "fileID": 3061764,
-      "required": true,
-      "__meta": {
-        "name": "Valkyrien Skies World",
-        "explicit": false,
-        "dependencies": [
-          258371
-        ]
-      }
-    },
-    {
       "projectID": 407884,
       "fileID": 3355108,
       "required": true,
@@ -526,7 +494,7 @@
     },
     {
       "projectID": 557428,
-      "fileID": 3639512,
+      "fileID": 3694183,
       "required": true,
       "__meta": {
         "name": "Matter Overdrive: Community Edition"

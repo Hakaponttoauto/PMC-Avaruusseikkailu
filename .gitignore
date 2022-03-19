@@ -1,1 +1,17 @@
 /.out
+/modpack/overrides/models
+/modpack/overrides/logs
+/modpack/overrides/schematics
+/modpack/overrides/tv-cache
+/modpack/overrides/warpDrive_schematics
+/modpack/overrides/asm
+*.log
+/logs
+/pax
+/modpackdownloader.jar
+/modpack/overrides/mods/Dalek Mod/cdn
+/modpack/overrides/mods
+/modpack/overrides/.mixin.out
+/modpack/overrides/customnpcs/assets
+/modpack/overrides/BiomeTweaker/output
+/modpack/overrides/config/BiomeTweaker/output
