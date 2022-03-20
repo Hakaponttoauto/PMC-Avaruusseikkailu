@@ -1,6 +1,0 @@
-
-{
-  "Name": "cryptkeeper",
-  "Registry ID": "lycanitesmobs:cryptkeeper",
-  "Class": "com.lycanitesmobs.core.entity.creature.EntityCryptkeeper"
-}

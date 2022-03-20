@@ -13,5 +13,10 @@
 /modpack/overrides/mods
 /modpack/overrides/.mixin.out
 /modpack/overrides/customnpcs/assets
+/modpack/overrides/saves
+/modpack/overrides/screenshots
 /modpack/overrides/BiomeTweaker/output
 /modpack/overrides/config/BiomeTweaker/output
+modpack/overrides/usercache.json
+modpack/overrides/usernamecache.json
+modpack/overrides/config/splash.properties

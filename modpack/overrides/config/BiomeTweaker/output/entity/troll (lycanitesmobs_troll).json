@@ -1,6 +1,0 @@
-
-{
-  "Name": "troll",
-  "Registry ID": "lycanitesmobs:troll",
-  "Class": "com.lycanitesmobs.core.entity.creature.EntityTroll"
-}

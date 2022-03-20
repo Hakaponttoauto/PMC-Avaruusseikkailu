@@ -1,6 +1,0 @@
-
-{
-  "Name": "spectre",
-  "Registry ID": "lycanitesmobs:spectre",
-  "Class": "com.lycanitesmobs.core.entity.creature.EntitySpectre"
-}

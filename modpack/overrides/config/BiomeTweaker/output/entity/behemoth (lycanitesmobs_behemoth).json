@@ -1,6 +1,0 @@
-
-{
-  "Name": "behemoth",
-  "Registry ID": "lycanitesmobs:behemoth",
-  "Class": "com.lycanitesmobs.core.entity.creature.EntityBehemoth"
-}

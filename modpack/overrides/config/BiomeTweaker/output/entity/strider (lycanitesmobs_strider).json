@@ -1,6 +1,0 @@
-
-{
-  "Name": "strider",
-  "Registry ID": "lycanitesmobs:strider",
-  "Class": "com.lycanitesmobs.core.entity.creature.EntityStrider"
-}

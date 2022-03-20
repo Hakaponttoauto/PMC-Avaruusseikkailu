@@ -1,6 +1,0 @@
-
-{
-  "Name": "EntityNPC",
-  "Registry ID": "warpdrive:entity_npc",
-  "Class": "cr0s.warpdrive.entity.EntityNPC"
-}
