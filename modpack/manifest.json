@@ -412,6 +412,15 @@
       }
     },
     {
+      "projectID": 295008,
+      "fileID": 3616786,
+      "required": true,
+      "__meta": {
+        "name": "SurvivalPlus",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 296686,
       "fileID": 3097911,
       "required": true,
@@ -448,14 +457,6 @@
       }
     },
     {
-      "projectID": 307487,
-      "fileID": 2904486,
-      "required": true,
-      "__meta": {
-        "name": "Laser Mod"
-      }
-    },
-    {
       "projectID": 307806,
       "fileID": 2820815,
       "required": true,
@@ -473,6 +474,17 @@
         "dependencies": [
           227083,
           307806
+        ]
+      }
+    },
+    {
+      "projectID": 308372,
+      "fileID": 3676262,
+      "required": true,
+      "__meta": {
+        "name": "SurvivalPlus Lightsabers",
+        "dependencies": [
+          295008
         ]
       }
     },
