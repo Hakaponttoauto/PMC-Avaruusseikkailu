@@ -21,3 +21,13 @@ modpack/overrides/usercache.json
 modpack/overrides/usernamecache.json
 modpack/overrides/config/splash.properties
 .minecraft
+modpack/overrides/config/lycanitesmobs/creatures
+modpack/overrides/config/lycanitesmobs/elements
+modpack/overrides/config/lycanitesmobs/mobevents
+modpack/overrides/config/lycanitesmobs/projectiles
+modpack/overrides/config/lycanitesmobs/spawners
+modpack/overrides/config/lycanitesmobs/items
+modpack/overrides/config/lycanitesmobs/equipment
+modpack/overrides/config/lycanitesmobs/creaturetypes
+modpack/overrides/config/lycanitesmobs/dungeons
+modpack/overrides/config/jei/worldSettings.cfg

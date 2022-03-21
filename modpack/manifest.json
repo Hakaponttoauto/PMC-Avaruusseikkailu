@@ -48,14 +48,6 @@
       }
     },
     {
-      "projectID": 221418,
-      "fileID": 2543507,
-      "required": true,
-      "__meta": {
-        "name": "Perfect Spawn"
-      }
-    },
-    {
       "projectID": 221641,
       "fileID": 3397885,
       "required": true,
@@ -283,6 +275,17 @@
       }
     },
     {
+      "projectID": 242106,
+      "fileID": 2539562,
+      "required": true,
+      "__meta": {
+        "name": "Better Questing - Quest Book",
+        "dependencies": [
+          238856
+        ]
+      }
+    },
+    {
       "projectID": 242818,
       "fileID": 2779848,
       "required": true,
@@ -329,14 +332,6 @@
       "required": true,
       "__meta": {
         "name": "In Control!"
-      }
-    },
-    {
-      "projectID": 257573,
-      "fileID": 3248033,
-      "required": true,
-      "__meta": {
-        "name": "Xtones"
       }
     },
     {
@@ -497,6 +492,15 @@
       }
     },
     {
+      "projectID": 342584,
+      "fileID": 3533131,
+      "required": true,
+      "__meta": {
+        "name": "Collective (Forge)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 355211,
       "fileID": 2844857,
       "required": true,
@@ -510,6 +514,17 @@
       "required": true,
       "__meta": {
         "name": "Lycanites Redux"
+      }
+    },
+    {
+      "projectID": 366916,
+      "fileID": 3219315,
+      "required": true,
+      "__meta": {
+        "name": "Set World Spawn Point (Forge)",
+        "dependencies": [
+          342584
+        ]
       }
     },
     {
