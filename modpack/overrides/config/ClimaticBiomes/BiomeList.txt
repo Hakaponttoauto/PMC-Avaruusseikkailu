@@ -141,9 +141,6 @@ extrabiomesxl:redrockdesert
 extrabiomesxl:redwoodforest
 extrabiomesxl:wasteland
 extrabiomesxl:woodlands
-avp:acheron
-avp:vardabadlands
-avp:vardaforest
 climaticbiomesjbg:subtropical_forest
 climaticbiomesjbg:tropical_forest
 climaticbiomesjbg:pine_swamp

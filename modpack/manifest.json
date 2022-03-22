@@ -48,17 +48,6 @@
       }
     },
     {
-      "projectID": 221641,
-      "fileID": 3397885,
-      "required": true,
-      "__meta": {
-        "name": "AliensVsPredator",
-        "dependencies": [
-          248278
-        ]
-      }
-    },
-    {
       "projectID": 221826,
       "fileID": 2996912,
       "required": true,
@@ -347,6 +336,14 @@
       }
     },
     {
+      "projectID": 267602,
+      "fileID": 2915363,
+      "required": true,
+      "__meta": {
+        "name": "ConnectedTexturesMod"
+      }
+    },
+    {
       "projectID": 268560,
       "fileID": 2835175,
       "required": true,
@@ -363,6 +360,14 @@
         "dependencies": [
           268560
         ]
+      }
+    },
+    {
+      "projectID": 270078,
+      "fileID": 2457838,
+      "required": true,
+      "__meta": {
+        "name": "The Official Connected Textures Pack"
       }
     },
     {
@@ -498,6 +503,14 @@
       "__meta": {
         "name": "Collective (Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 354143,
+      "fileID": 3511568,
+      "required": true,
+      "__meta": {
+        "name": "Performant"
       }
     },
     {
