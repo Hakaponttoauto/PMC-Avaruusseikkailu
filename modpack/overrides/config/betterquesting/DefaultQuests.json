@@ -28,8 +28,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Osmium",
-          "desc:8": "No Description"
+          "name:8": "The densest and the thiccest",
+          "desc:8": "Obtain your first Osmium ingot"
         }
       },
       "tasks:9": {
@@ -85,8 +85,458 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Electricity",
-          "desc:8": "Craft a heat generator"
+          "name:8": "Climate change at its finest",
+          "desc:8": "Craft a Heat Generator"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanismgenerators:generator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:machineblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "From Iron to Steel",
+          "desc:8": "Craft a Metallurgic Infuser to infuse different kinds of alloys"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanism:machineblock",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "biomesoplenty:log_4",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Logging Business",
+          "desc:8": "Cut down your first tree."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "blockID:8": "biomesoplenty:log_4",
+              "nbt:10": {},
+              "amount:3": 1,
+              "oreDict:8": "",
+              "meta:3": 5
+            }
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "biomesoplenty:dried_sand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Crashing the party",
+          "desc:8": "Land to the wastelands of Tellus"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": 1024,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "biomesoplenty:wasteland",
+          "name:8": "Tellus",
+          "dimension:3": 0,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "COMPLETED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "nuclearcraft:axe_tough",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Rodent Killer",
+          "desc:8": "How dare you kill a Kobold \u003e:("
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "Passive:1": 0,
+            "Size:6": 1.0,
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 11.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30800000000000005,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 72.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.defense"
+              },
+              "8:10": {
+                "Base:6": 1.1,
+                "Name:8": "generic.attackDamage"
+              },
+              "9:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackSpeed"
+              },
+              "10:10": {
+                "Base:6": 1.5,
+                "Name:8": "generic.rangedSpeed"
+              }
+            },
+            "Invulnerable:1": 0,
+            "PVP:1": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Subspecies:1": 0,
+            "ForceNoDespawn:1": 0,
+            "FallDistance:5": 0.0,
+            "SpawnedAsBoss:1": 0,
+            "InLove:3": 0,
+            "Aggressive:1": 1,
+            "MinionIds:9": {},
+            "ForgeCaps:10": {
+              "nuclearcraft:capability_entity_rads:10": {
+                "consumed:1": 0,
+                "radawayBuffer:6": 0.0,
+                "shouldWarn:1": 0,
+                "radXUsed:1": 0,
+                "poisonBuffer:6": 0.0,
+                "radXCooldown:6": 0.0,
+                "radXWoreOff:1": 0,
+                "radawayCooldown:6": 0.0,
+                "recentRadawayAddition:6": 0.0,
+                "maxRads:6": 550.0,
+                "radawayBufferSlow:6": 0.0,
+                "externalRadiationResistance:6": 0.0,
+                "totalRads:6": 0.0,
+                "setFromMaxHealth:1": 1,
+                "radiationLevel:6": 0.0,
+                "recentPoisonAddition:6": 0.0,
+                "recentRadXAddition:6": 0.0,
+                "radiationImmunityStage:1": 0,
+                "internalRadiationResistance:6": 0.0,
+                "radiationImmunityTime:6": 0.0
+              },
+              "lycanitesmobs:iextendedentity:10": {}
+            },
+            "TemporaryDuration:3": 0,
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "Items:9": {},
+            "id:8": "lycanitesmobs:kobold",
+            "DropsRequirePlayerDamage:1": 0,
+            "MobLevel:3": 1,
+            "Leashed:1": 0,
+            "HasBeenFarmed:1": 0,
+            "Color:1": 0,
+            "CreatureRelationships:9": {},
+            "Air:2": 300,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Variant:1": 0,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Experience:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stealth:5": 0.0,
+            "Drops:9": {},
+            "CanPickUpLoot:1": 0,
+            "ExtraBehaviour:10": {
+              "BoostPierce:3": 0,
+              "MultiplierSpeed:6": 1.0,
+              "BoostHaste:3": 0,
+              "FireImmunityOverride:1": 0,
+              "InventorySizeOverride:3": 0,
+              "BoostEffect:3": 0,
+              "AIAttackPlayers:1": 0,
+              "WaterBreathingOverride:1": 0,
+              "BoostDamage:3": 0,
+              "ItemDropMultiplierOverride:6": 1.0,
+              "BoostArmor:3": 0,
+              "AggressiveOverride:1": 0,
+              "MultiplierHealth:6": 1.0,
+              "BoostDefense:3": 0,
+              "BoostSpeed:3": 0,
+              "MultiplierHaste:6": 1.0,
+              "MultiplierDefense:6": 1.0,
+              "ItemPickupOverride:1": 0,
+              "MultiplierEffect:6": 1.0,
+              "FlightOverride:1": 0,
+              "StealthOverride:1": 0,
+              "AIDefendAnimals:1": 0,
+              "MultiplierArmor:6": 1.0,
+              "SwimmingOverride:1": 0,
+              "MultiplierPierce:6": 1.0,
+              "MultiplierDamage:6": 1.0,
+              "BoostHealth:3": 0
+            },
+            "HurtTime:2": 0,
+            "ForgeData:10": {},
+            "Sitting:1": 0,
+            "FallFlying:1": 0,
+            "SpawnEventCount:3": -1,
+            "PortalCooldown:3": 0,
+            "IsTemporary:1": 0,
+            "Hunger:5": 20.0,
+            "DeathTime:2": 0,
+            "FirstSpawn:1": 1,
+            "SpawnedWithBlockProtection:3": 0,
+            "Age:3": 0,
+            "IsBoundPet:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "IsMinion:1": 0,
+            "SpawnEventType:8": "",
+            "UUIDLeast:4": -6898852318991434671,
+            "Health:5": 11.0,
+            "Following:1": 0,
+            "LeftHanded:1": 0,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "Rotation:9": {
+              "0:5": 1.0308735,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "Stamina:5": 100.0,
+            "UUIDMost:4": 5813320799013128581,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "FromSummoningPedestal:1": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "lycanitesmobs:kobold",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:atomicalloy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Alloy Infuser-er",
+          "desc:8": "Infuse your first alloy using Metallurgic Infuser"
         }
       },
       "tasks:9": {
@@ -102,13 +552,302 @@
               "ForgeCaps:10": {
                 "customnpcs:itemscripteddata:10": {}
               },
-              "id:8": "mekanismgenerators:generator",
+              "id:8": "mekanism:enrichedalloy",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:ingot",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steel Blacksmith",
+          "desc:8": "Use Steel to make some Steel Casings"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanism:basicblock",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanismgenerators:generator",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Harnessing the power of the Sun",
+          "desc:8": "Craft a Solar Generator "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanismgenerators:generator",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:controlcircuit",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "PCB Factory",
+          "desc:8": "Obtain your first Basic Control Circuit"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanism:controlcircuit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:transmitter",
+            "Count:3": 1,
+            "tag:10": {
+              "tier:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The wizard of cables",
+          "desc:8": "Craft a Basic Universal Cable"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanism:transmitter",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:energytablet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "5-hour Energy®",
+          "desc:8": "Craft a Energy Tablet"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "mekanism:energytablet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
         }
       },
       "rewards:9": {}
@@ -126,9 +865,58 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 36,
           "y:3": -12,
           "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -12,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 24,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -48,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 72,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 24,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": -48,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 11,
           "sizeY:3": 24
         }
       },
@@ -136,19 +924,60 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Beginning",
+          "name:8": "The basics of Mekanisms",
           "icon:10": {
             "ForgeCaps:10": {
               "customnpcs:itemscripteddata:10": {}
             },
-            "id:8": "minecraft:book",
+            "id:8": "mekanism:energycube",
+            "Count:3": 1,
+            "tag:10": {
+              "tier:3": 3
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Learn to embrace the tech of Mekanism"
+        }
+      },
+      "order:3": 1
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 0,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 4,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Starting from scratch",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "minecraft:grass",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "A good start"
+          "desc:8": "Your journey starts from here. Good luck young padawan."
         }
       },
       "order:3": 0
