@@ -497,6 +497,26 @@
       }
     },
     {
+      "projectID": 315773,
+      "fileID": 3341793,
+      "required": true,
+      "__meta": {
+        "name": "Fantastic Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 327592,
+      "fileID": 2853556,
+      "required": true,
+      "__meta": {
+        "name": "No Advancements",
+        "dependencies": [
+          315773
+        ]
+      }
+    },
+    {
       "projectID": 342584,
       "fileID": 3533131,
       "required": true,
