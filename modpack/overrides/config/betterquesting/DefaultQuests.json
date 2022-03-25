@@ -189,7 +189,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Crashing the party",
@@ -220,15 +220,6 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "customnpcs:itemscripteddata:10": {}
-              },
-              "id:8": "nuclearcraft:geiger_counter",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "ForgeCaps:10": {
                 "customnpcs:itemscripteddata:10": {}
               },
