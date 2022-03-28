@@ -1,2 +1,3 @@
 mkdir -p ./.minecraft
-ln -srf ./modpack/overrides/* ./.minecraft/
+shopt -s extglob
+ln -srf ./modpack/overrides/!(mods) ./.minecraft/

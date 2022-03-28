@@ -64,7 +64,7 @@
 		
 		<filler block="thermalfoundation:ore"      metadata="0" ratio=".048" mods="thermalfoundation" /><!-- Copper -->
 		<filler block="immersiveengineering:ore"   metadata="0" ratio=".048" mods="immersiveengineering,!thermalfoundation" /><!-- Copper -->
-		<filler block="mekanism:oreblock"          metadata="0" ratio=".048" mods="mekanism,!thermalfoundation,!immersiveengineering" /><!-- Copper -->
+		<filler block="mekanism:oreblock"          metadata="1" ratio=".048" mods="mekanism,!thermalfoundation,!immersiveengineering" /><!-- Copper -->
 		<filler block="ic2:resource"               metadata="1" ratio=".048" mods="ic2,!thermalfoundation,!immersiveengineering,!mekanism" /><!-- Copper -->
 		<filler block="nuclearcraft:ore"           metadata="0" ratio=".048" mods="nuclearcraft,!thermalfoundation,!immersiveengineering,!mekanism,!ic2" /><!-- Copper -->
 		<filler block="forestry:resources"         metadata="1" ratio=".048" mods="forestry,!thermalfoundation,!immersiveengineering,!mekanism,!ic2,!nuclearcraft" /><!-- Copper -->
@@ -76,7 +76,7 @@
 		<filler block="nuclearcraft:ore"         metadata="2" ratio=".024" mods="nuclearcraft,!thermalfoundation,!immersiveengineering,!ic2" /><!-- Lead -->
 		
 		<filler block="thermalfoundation:ore"      metadata="1" ratio=".032" mods="thermalfoundation" /><!-- Tin -->
-		<filler block="mekanism:oreblock"          metadata="0" ratio=".032" mods="mekanism,!thermalfoundation" /><!-- Tin -->
+		<filler block="mekanism:oreblock"          metadata="2" ratio=".032" mods="mekanism,!thermalfoundation" /><!-- Tin -->
 		<filler block="ic2:resource"               metadata="3" ratio=".032" mods="ic2,!thermalfoundation,!mekanism" /><!-- Tin -->
 		<filler block="nuclearcraft:ore"           metadata="1" ratio=".032" mods="nuclearcraft,!thermalfoundation,!mekanism,!ic2" /><!-- Tin -->
 		<filler block="forestry:resources"         metadata="2" ratio=".032" mods="forestry,!thermalfoundation,!mekanism,!ic2,!nuclearcraft" /><!-- Tin -->

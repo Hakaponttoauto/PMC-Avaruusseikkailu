@@ -2,6 +2,60 @@
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [
+        14,
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "matteroverdrive:gravitational_anomaly",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Space",
+          "desc:8": "Make your first trip to space!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Space",
+          "dimension:3": -101,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
       "questID:3": 1,
       "preRequisites:11": [
         12
@@ -58,7 +112,7 @@
       },
       "rewards:9": {}
     },
-    "1:10": {
+    "2:10": {
       "questID:3": 2,
       "preRequisites:11": [
         1
@@ -115,7 +169,7 @@
       },
       "rewards:9": {}
     },
-    "2:10": {
+    "3:10": {
       "questID:3": 3,
       "preRequisites:11": [
         4
@@ -165,7 +219,7 @@
       },
       "rewards:9": {}
     },
-    "3:10": {
+    "4:10": {
       "questID:3": 4,
       "preRequisites:11": [],
       "properties:10": {
@@ -232,7 +286,7 @@
         }
       }
     },
-    "4:10": {
+    "5:10": {
       "questID:3": 5,
       "preRequisites:11": [],
       "properties:10": {
@@ -467,7 +521,7 @@
       },
       "rewards:9": {}
     },
-    "5:10": {
+    "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
         2
@@ -524,7 +578,7 @@
       },
       "rewards:9": {}
     },
-    "6:10": {
+    "7:10": {
       "questID:3": 7,
       "preRequisites:11": [
         2
@@ -581,7 +635,7 @@
       },
       "rewards:9": {}
     },
-    "7:10": {
+    "8:10": {
       "questID:3": 8,
       "preRequisites:11": [
         11
@@ -638,7 +692,7 @@
       },
       "rewards:9": {}
     },
-    "8:10": {
+    "9:10": {
       "questID:3": 9,
       "preRequisites:11": [
         6
@@ -695,7 +749,7 @@
       },
       "rewards:9": {}
     },
-    "9:10": {
+    "10:10": {
       "questID:3": 10,
       "preRequisites:11": [
         7
@@ -758,7 +812,7 @@
       },
       "rewards:9": {}
     },
-    "10:10": {
+    "11:10": {
       "questID:3": 11,
       "preRequisites:11": [
         6
@@ -815,7 +869,7 @@
       },
       "rewards:9": {}
     },
-    "11:10": {
+    "12:10": {
       "questID:3": 12,
       "preRequisites:11": [
         3
@@ -871,6 +925,231 @@
         }
       },
       "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        15,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "warpdrive:ship_core.basic",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Warping",
+          "desc:8": "Craft a basic ship core"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "warpdrive:ship_core.basic",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "warpdrive:air_generator.advanced",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Air",
+          "desc:8": "Craft air generator"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "warpdrive:air_generator.basic",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "mekanism:polyethene",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Polluting the oceans",
+          "desc:8": "Produce plastic"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "thedalekmod:plasticchunk",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "ingotPlastic"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "customnpcs:itemscripteddata:10": {}
+            },
+            "id:8": "computercraft:computer",
+            "Count:3": 1,
+            "Damage:2": 16384,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Silicon valley",
+          "desc:8": "Craft computers"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "customnpcs:itemscripteddata:10": {}
+              },
+              "id:8": "computercraft:computer",
+              "Count:3": 1,
+              "Damage:2": 16384,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -903,80 +1182,115 @@
     "1:10": {
       "quests:9": {
         "0:10": {
+          "sizeX:3": 48,
+          "x:3": 516,
+          "y:3": -24,
+          "id:3": 0,
+          "sizeY:3": 48
+        },
+        "1:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -12,
           "id:3": 1,
           "sizeY:3": 24
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": -12,
           "id:3": 2,
           "sizeY:3": 24
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": -12,
           "id:3": 3,
           "sizeY:3": 24
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -12,
           "id:3": 4,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 12,
           "id:3": 6,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": -36,
           "id:3": 7,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 240,
           "y:3": 36,
           "id:3": 8,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": -12,
           "id:3": 9,
           "sizeY:3": 24
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": -60,
           "id:3": 10,
           "sizeY:3": 24
         },
-        "9:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 36,
           "id:3": 11,
           "sizeY:3": 24
         },
-        "10:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -12,
           "id:3": 12,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 480,
+          "y:3": -36,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 480,
+          "y:3": 12,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 444,
+          "y:3": -12,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 444,
+          "y:3": -60,
+          "id:3": 16,
           "sizeY:3": 24
         }
       },
