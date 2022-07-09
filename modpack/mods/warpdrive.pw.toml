@@ -1,0 +1,13 @@
+name = "WarpDrive"
+filename = "WarpDrive-1.12.2-1.5.28.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a9f210d9bd50c0060b6332816cb5f2b62900d5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3762066
+project-id = 233565

@@ -1,0 +1,13 @@
+name = "ModularVoiceChat"
+filename = "ModularVoiceChat-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d904cd24903588d95de82c8683aff89a0c988913"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3355108
+project-id = 407884

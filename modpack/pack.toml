@@ -1,0 +1,13 @@
+name = "PMC-Avaruusseikkailu"
+author = "Hakaponttoauto"
+version = "0.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d78881e4cfb5e402c66043148dbf2638690b6302f5b40e0d62a1b8710d7abb30"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

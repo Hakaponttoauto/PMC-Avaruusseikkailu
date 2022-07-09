@@ -1,0 +1,13 @@
+name = "MrCrayfish's Furniture Mod"
+filename = "furniture-6.3.1-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05fcc338d115ba09266ab2da39027ae319efba18"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2749993
+project-id = 55438

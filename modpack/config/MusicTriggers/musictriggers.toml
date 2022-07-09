@@ -1,0 +1,5 @@
+
+[hyper]
+    [hyper.trigger]
+        name = "dimension"
+		resource_name = "-100"

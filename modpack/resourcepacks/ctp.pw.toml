@@ -1,0 +1,13 @@
+name = "The Official Connected Textures Pack"
+filename = "ctp_1.2_MCv3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7aa957790e29c3d2a7d1db8077adbe751a91e767"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2457838
+project-id = 270078

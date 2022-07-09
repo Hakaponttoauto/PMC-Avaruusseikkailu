@@ -1,0 +1,13 @@
+name = "Sips"
+filename = "sips-0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9685e60bded1faf1a7e91fc944ef3b354bb308cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2689817
+project-id = 313710

@@ -1,0 +1,13 @@
+name = "Music Triggers"
+filename = "musictriggers-1.12.2-5.4-hf.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "96c5f24686c52180707e4edf6bc3134d2fb60cf1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3796636
+project-id = 518410

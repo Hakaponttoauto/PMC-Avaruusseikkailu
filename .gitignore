@@ -1,38 +1,12 @@
 # Common developing stuff
 /.out
-/pax
-/modpackdownloader.jar
-
-# Overrides we don't need to include
-/modpack/overrides/.mixin.out
-/modpack/overrides/asm
-/modpack/overrides/config/BiomeTweaker/output
-/modpack/overrides/BiomeTweaker/output
-/modpack/overrides/config/lycanitesmobs/creatures
-/modpack/overrides/config/lycanitesmobs/creaturetypes
-/modpack/overrides/config/lycanitesmobs/dungeons
-/modpack/overrides/config/lycanitesmobs/elements
-/modpack/overrides/config/lycanitesmobs/equipment
-/modpack/overrides/config/lycanitesmobs/items
-/modpack/overrides/config/lycanitesmobs/mobevents
-/modpack/overrides/config/lycanitesmobs/projectiles
-/modpack/overrides/config/lycanitesmobs/spawners
-/modpack/overrides/config/jei/worldSettings.cfg
-/modpack/overrides/config/splash.properties
-/modpack/overrides/customnpcs/assets
-/modpack/overrides/models
-/modpack/overrides/schematics
-/modpack/overrides/saves
-/modpack/overrides/screenshots
-/modpack/overrides/tv-cache
-/modpack/overrides/usercache.json
-/modpack/overrides/usernamecache.json
-/modpack/overrides/warpDrive_schematics
+/modpack/packwiz-installer-bootstrap.jar
 
 # Logging stuff
 *.log
 /logs
 /modpack/overrides/logs
-.minecraft
-modpack/overrides/config/fantasticlib
-modpack/overrides/mods/OptiFine_1.12.2_HD_U_G5.jar
+/modpack/.minecraft
+/modpack/overrides/config/fantasticlib
+/modpack/mods/OptiFine_1.12.2_HD_U_G5.jar
+/modpack/packwiz

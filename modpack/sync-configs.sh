@@ -1,0 +1,1 @@
+rsync -vr --exclude-from=.rsyncignore ./.minecraft/ .

@@ -1,0 +1,13 @@
+name = "Patchwork"
+filename = "Patchwork-1.12.2-0.2.3.4BETA.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e33588917817928ea2aa02666a07f2b7e5f59f72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2657339
+project-id = 307810

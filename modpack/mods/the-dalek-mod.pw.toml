@@ -1,0 +1,13 @@
+name = "The Dalek Mod"
+filename = "thedalekmod-64.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0465bdd222bfbb9eab0e8f958384e0b357cf2eab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3505229
+project-id = 59654

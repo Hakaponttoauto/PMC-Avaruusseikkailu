@@ -1,0 +1,9 @@
+{
+  "music.hyper": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/hyper",
+			"stream": true
+		}]
+	}
+}

@@ -1,0 +1,13 @@
+name = "Matter Overdrive: Community Edition"
+filename = "MatterOverdrive-1.12.2-0.8.0-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13562188804ca0ee247465db29b7c64a285082a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3807666
+project-id = 557428

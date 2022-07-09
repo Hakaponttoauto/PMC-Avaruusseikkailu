@@ -1,0 +1,13 @@
+name = "MoreBiomesXL"
+filename = "ExtrabiomesXL-4.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb6ed8939f77900a02f16a6188dbf0a9f52e603b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2844857
+project-id = 355211

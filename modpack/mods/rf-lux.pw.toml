@@ -1,0 +1,13 @@
+name = "RF Lux"
+filename = "rflux-1.12-0.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "546f9131df40202267efd47eab6152d06121efda"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2704416
+project-id = 250207

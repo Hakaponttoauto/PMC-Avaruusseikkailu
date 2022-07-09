@@ -1,0 +1,13 @@
+name = "Climatic Biomes"
+filename = "ClimaticBiomes-2.17.3-MC1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dae85e2b545da3d82d6c2c61f095c2d6e5849d78"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3838260
+project-id = 297361

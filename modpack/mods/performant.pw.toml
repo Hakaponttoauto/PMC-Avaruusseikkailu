@@ -1,0 +1,13 @@
+name = "Performant"
+filename = "performant-1.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "033c589ceb8026d66ee9b2332185ae273fa77993"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3511568
+project-id = 354143
