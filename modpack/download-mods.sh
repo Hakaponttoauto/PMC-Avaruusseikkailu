@@ -1,5 +1,5 @@
 mkdir -p ./.minecraft/mods
-
+packwiz refresh
 packwiz serve &
 (
 	cd .minecraft

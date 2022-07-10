@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".rsyncignore"
-hash = "6481ccc3a0d583840c8011a7d6e588948ab47f874d533a64fab1bb8e2ebbacda"
+hash = "802ccc634a9b6b29c7b6d09e5584418d1c1a796af089d212068185d2887199a5"
 
 [[files]]
 file = "config/BNBGamingCore.cfg"
@@ -121,6 +121,10 @@ file = "config/betterquesting/questbook.cfg"
 hash = "3698c91ba0d3ad6697563c75ced0b2f00a88f49ee50af022506d0806a003ed7c"
 
 [[files]]
+file = "config/bookshelf.cfg"
+hash = "92c47c2ca07d4a930818149a8fffa5cf941e0c6b5145c0dde85746f746389053"
+
+[[files]]
 file = "config/catwalks.cfg"
 hash = "d8f1873d5566653f74f5ada720abc8319ca696d5cc9b054c0cb1d0fdc7fb5eb6"
 
@@ -209,6 +213,10 @@ file = "config/forgeChunkLoading.cfg"
 hash = "3d64e2018453145e4499cbc6dbae7227c95cc80203ddc78692ce214f811856d8"
 
 [[files]]
+file = "config/gamestages.cfg"
+hash = "6dd6ac7414ad9d57c23462ca4906c40a93472897fa6b423f3ff55a7f9291ee7f"
+
+[[files]]
 file = "config/incontrol/experience.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -233,6 +241,10 @@ file = "config/incontrol/summonaid.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/itemstages.cfg"
+hash = "31fb2174349ff3a7504cf83f34f2498ba6b148e89ff62a557aada7cb86177326"
+
+[[files]]
 file = "config/jei/itemBlacklist.cfg"
 hash = "9fb9b15b542a7b013ab2ee21cfe39f5d4ac70d72e26e9458c68ac073f1e3368e"
 
@@ -243,10 +255,6 @@ hash = "6d26f96914a15cceaff8b990011a3978c023d863cb6e796e0e8951a1ad97376c"
 [[files]]
 file = "config/jei/searchColors.cfg"
 hash = "aa2d125660ad731dff9aec92c745a6947e204dba56ecc95d6907f1883d26ec33"
-
-[[files]]
-file = "config/jei/worldSettings.cfg"
-hash = "15d0d2e292ae03f77b6eb9301b7c6a25107cbe9ea9c69613990735e2cf97e254"
 
 [[files]]
 file = "config/lycanitesmobs/general.cfg"
@@ -305,6 +313,10 @@ file = "config/microblocks.cfg"
 hash = "2fb7bd6ae3d592927f258557ee24dcf382dfc6d72225f8d3093e757ceb847740"
 
 [[files]]
+file = "config/multiblocked.cfg"
+hash = "c80b1c59317b6ba366a7d77c67a376528759771d5839a302afd2d1b8a6b25bfa"
+
+[[files]]
 file = "config/multipart.cfg"
 hash = "cc6a5f19afb365f55ebaf05e46b6dcc56aa47b4b286973b727ae3514b92d6635"
 
@@ -333,12 +345,20 @@ file = "config/performant.cfg"
 hash = "2a83b662e842201754d49cb7f5ef0478ab47734170b1f33cf13ee6bcb2e635e1"
 
 [[files]]
+file = "config/phosphor.json"
+hash = "cbff9a6c5f512355728a48301e1dc26bc01681a649d1ae914cc637302ca53d6e"
+
+[[files]]
 file = "config/reccomplex.cfg"
 hash = "8139d4ffc4d65ea645b39793f77f4864815f12121a0554593c981f6c6a6ebe5e"
 
 [[files]]
+file = "config/recipestages.cfg"
+hash = "a09480ff4528b39af628040e86cc84721c878c0f7238ced79f90701f968f7d4d"
+
+[[files]]
 file = "config/reskillable.cfg"
-hash = "a1a52c2ce8459a96bfe70c0f234d81eac088d50172068667e48a1b005146bbd6"
+hash = "c2a9a11608a0896e17d29282d59c2c5f9426a92f50e85d48b70a407c83b7d6dc"
 
 [[files]]
 file = "config/rflux.cfg"
@@ -357,8 +377,8 @@ file = "config/sips.cfg"
 hash = "fbaffd67aff50a6ac519332f7ebc0ae89e85947ad7eeade595a89e170206c4d0"
 
 [[files]]
-file = "config/splash.properties"
-hash = "7f5beb5af9fbda1bfa5d5bc06f34119f1fb054296cacaf044c4f2ed4ed5f3683"
+file = "config/surge.cfg"
+hash = "25f8fe4e5c159a1760eff8ae2deb0edbe42cfa62d77fc60a46381806fcffd7ed"
 
 [[files]]
 file = "config/topography/Topography.txt"
@@ -817,12 +837,16 @@ file = "config/topography/structures/basic tree.nbt"
 hash = "ec80818a720487eac90f760fd0826259809dcb6ed58b52f036aafb25cf3acbeb"
 
 [[files]]
-file = "config/warpdrive/WarpDrive.xsd"
-hash = "39e95bab6b60eacd48c1c56d7351a02062c1a179e76a614be3e55e7cd5859c0b"
+file = "config/vanillafix.cfg"
+hash = "2046a3b1f7bc555e81bcd32cbf6971fd2d129be4252561eb01b14e197b7b3b47"
 
 [[files]]
-file = "config/warpdrive/celestialObjects-Galacticraft+ExtraPlanets.xml"
-hash = "6413e2ddbcbdde3a843e3a7ad23ec24e073cfad9940804d9254b401eb8406f87"
+file = "config/vanillafix/config_version"
+hash = "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+
+[[files]]
+file = "config/warpdrive/WarpDrive.xsd"
+hash = "39e95bab6b60eacd48c1c56d7351a02062c1a179e76a614be3e55e7cd5859c0b"
 
 [[files]]
 file = "config/warpdrive/celestialObjects-default.xml"
@@ -882,7 +906,7 @@ hash = "f8a5a26e3056eb6fb06deeb3dbccfd88ae74900200c98c70b5966bbb7ec9d4de"
 
 [[files]]
 file = "icon.png"
-hash = "8ca8bf16e12c01b85497882cf329a4881028fda24d35903337b69273b811ad4d"
+hash = "0a29054639c45c009a2dae9d194ead5288a712fec39d00ca9f41dc5ef75f166d"
 
 [[files]]
 file = "mods/OptiFine_1.12.2_HD_U_G5.jar"
@@ -926,6 +950,11 @@ metafile = true
 [[files]]
 file = "mods/bnbgaminglib.pw.toml"
 hash = "85633fa044cc6ed074fb5e1e7a97a272abda513ba23e3561d953773e424dd851"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "9b29f8c649940c076771dae2b5de364eaa3b44d65a5f993bdc3482623c82e9b8"
 metafile = true
 
 [[files]]
@@ -1004,8 +1033,18 @@ hash = "7977514914adf41c3dad0459b1ae4028bd7ed6832595ee12e16c334bea673292"
 metafile = true
 
 [[files]]
+file = "mods/game-stages.pw.toml"
+hash = "58473bbbfb72a4e7aa553ecee24cc654756443860042af596ec94d2e94ac3be9"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "92527273fa468970a2f1ab95c1df58a13881b8345f6537ea65c60d8ff812592f"
+metafile = true
+
+[[files]]
+file = "mods/item-stages.pw.toml"
+hash = "cbdaa55b50ad2751bfe5fb532484bc66976d441704c42eae1819e7885c8c6c75"
 metafile = true
 
 [[files]]
@@ -1079,11 +1118,6 @@ hash = "ae849763d546d4fea042e339ec74f8b0373472f76aeda340cd6bced6ac7754bd"
 metafile = true
 
 [[files]]
-file = "mods/music-triggers.pw.toml"
-hash = "8241b09ac5c0189d274557ef6bf579608932854f57534341da0e7a9368262069"
-metafile = true
-
-[[files]]
 file = "mods/no-advancements.pw.toml"
 hash = "6a8daacdb775d0b6d0e07107f5e60f9715d6ecd68ca40981e7a5a9f926e8f1ae"
 metafile = true
@@ -1119,6 +1153,11 @@ hash = "5865f55ac3ee06486892780710061e5a93d803c16bfaa346520b4203c8f124fc"
 metafile = true
 
 [[files]]
+file = "mods/phosphor-forge.pw.toml"
+hash = "900c33ef3ec1924d7557882e955063e30726a81f662e1443b7a3d3ff66a557d1"
+metafile = true
+
+[[files]]
 file = "mods/project-red-compat.pw.toml"
 hash = "9e26a0599000e5c66a5836ae043123524c492fa6b2e2274646692947acec224a"
 metafile = true
@@ -1136,6 +1175,11 @@ metafile = true
 [[files]]
 file = "mods/project-red-integration.pw.toml"
 hash = "bdd671787a660a9442327d14f5efbb63239a78dac60f88afcf93063d97bbd364"
+metafile = true
+
+[[files]]
+file = "mods/recipe-stages.pw.toml"
+hash = "07d687fea814f6ab1a1567bcabd62ae15fb3c22d9b8c4b7a88bf160db02e842b"
 metafile = true
 
 [[files]]
@@ -1179,6 +1223,16 @@ hash = "39bb6bcff571cb4fb308d3ff66a2eb8a439800614edd67b86c45d13aed9447ab"
 metafile = true
 
 [[files]]
+file = "mods/surge.pw.toml"
+hash = "76364bbc6e5ab454bdbd76fa3502bdee90c0bb842f6b405ed60f1d33c76053ee"
+metafile = true
+
+[[files]]
+file = "mods/texfix.pw.toml"
+hash = "c7a205d96c898c9d1ed408e008361dc00028eb38af7d35d6eb39fb82625407ea"
+metafile = true
+
+[[files]]
 file = "mods/the-dalek-mod.pw.toml"
 hash = "acf242644bc32411f9dc39ad9b8fe6313a6a68919121f4ca2ef610cb6f793084"
 metafile = true
@@ -1189,8 +1243,18 @@ hash = "7ce28d210876e7992085a231749d11e3365bafbaf71b0e5e8466384c8944f2e2"
 metafile = true
 
 [[files]]
+file = "mods/vanillafix.pw.toml"
+hash = "ffa7f44da1126416918d12f8def266ed3fb8c65ae8a8949f6f2d5dae1f856759"
+metafile = true
+
+[[files]]
 file = "mods/warpdrive.pw.toml"
 hash = "1beb9edeb11b4f0e265596aa55818d15eae3350ab9f564a78ae45b99192ed6db"
+metafile = true
+
+[[files]]
+file = "mods/zenstages.pw.toml"
+hash = "0a7ebb32ab807a6ab5c22c438d535bf8872ea0ac373b26bfe599bbb2545ae23d"
 metafile = true
 
 [[files]]
@@ -6761,6 +6825,10 @@ hash = "25990c2bba2b14e0818a8f5f73931a96cfbbdd1017344aa9b612002b07d813c2"
 [[files]]
 file = "resources/warpdrive/textures/dev/border.png"
 hash = "929778900330c1e8b80253e5559bd268b759c62b628e501f56b799a8a011d9ff"
+
+[[files]]
+file = "scripts/gamestages.zs"
+hash = "f893bec19fed09137d4140164a7b29462b53f788e792ebdf5c347391110a76ca"
 
 [[files]]
 file = "scripts/nuclearcraft.zs"

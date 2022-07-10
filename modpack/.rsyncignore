@@ -10,6 +10,7 @@
 /structures
 /server-resource-packs
 /coremods
+/crash-reports
 /options.txt
 /optionsof.txt
 /usercache.json
@@ -21,3 +22,5 @@
 /config/lycanitesmobs
 /config/biomesoplenty
 /config/ClimaticBiomes
+/config/jei/worldSettings.cfg
+/config/splash.properties
